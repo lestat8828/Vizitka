@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+
+body {
+	background-color: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #1b2429;
+	margin-top: 70px;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.centered {/*1*/
+	text-align: center;
+}
+.logo {/*1*/
+	float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.logo a {/*1*/
+	text-decoration: none;
+	color:#337ab7;
+}
+.navbar-header a:hover {
+	color: #337ab7;
+}
+.nav a:hover  {/*1*/
+	
+	transform: rotateX(360deg);
+	
+	
+}
+
+.navbar {
+	font-weight: 800;/*1*/
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-inverse {
+	background: #576a91;
+	border-color: #576a91;
+}
+
+.navbar-inverse .navbar-nav > li > a {/*1*/
+	color: #1b2429;
+	transition: transform .7s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.navbar-inverse .navbar-brand {/*1*/
+	color: #1b2429;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+
+#headerwrap {/*1*/
+	background: url(../photo/main_photo.jpg) top;
+	padding-top: 20px;
+	text-align: center;
+	background-position: center center;
+	min-height: 735px;
+	width: 100%;
+	background-size: 100%;
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: #d3c2b5;
+	font-size: 2vw;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-family: 'OpenSans-Bold', sans-serif;
+}
+
+#headerwrap h2 {
+	color: #d3c2b5; 
+	font-size: 4vw;
+	letter-spacing: 2px;
+	font-family: 'OpenSans-ExtraBold', sans-serif;
+}
+.header_text {
+	padding-bottom: 47px;
+}
+.btn_down {
+    padding: 0 30px;
+    line-height: 47px;
+    background-color: #337ab7;
+    color: #1b2429;
+    font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    animation-iteration-count: infinite; opacity: 1;
+}
+#services {
+	background-color: white;
+	margin-bottom: 35px;
+}
+#services h2 {
+	font-size: 46px;
+	padding-bottom: 30px;
+	font-family: 'OpenSans-ExtraBold', sans-serif;
+	font-weight: bold;
+	color: #337ab7;
+}
+#services p {
+	font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 16px;
+    padding-top: 19px;
+    line-height: 32px;
+    color: #7e8287;
+}
+#services ul {
+	list-style-image: url(../photo/list_icon.png);
+	margin-left: -12px;
+	padding-bottom: 30px;
+}
+#services li {
+	font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #7e8287;
+    font-weight: bold;
+}
+.services {
+	margin-top: 45px;
+}
+.photo {
+	background: url(../photo/aside2.jpg);
+    height: 450px;
+    background-size: cover;
+}
+#about {
+	padding-bottom: 35px;
+}
+#about h2 {
+    font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 46px;
+    color: #337ab7;
+    margin-bottom: 23px;
+    font-weight: bold;
+    }
+
+#about img {
+	width: 55px;
+	height: 60px;
+	margin-top: 20px;
+}
+#about h3 {
+	font-family: 'OpenSans-ExtraBold', sans-serif;;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #7e8287;
+}
+#about p {
+	font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 10px;
+    color: #7e8287;
+}
+#about .about p {
+	font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 21px;
+    padding-top: 19px;
+    line-height: 32px;
+    color: #7e8287;
+    padding-bottom: 25px;
+}
+
+#resume {
+	padding-bottom: 35px;
+}
+#resume h2 { font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 46px;
+    color: #337ab7;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+#resume h3 {
+	font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 10px;
+    color: #1b2429;
+    font-weight: bold;
+    margin-top: -10px;
+}
+#resume .icon_resume i {
+	color:#576a91 ;
+}
+.content_resume_left {
+	padding-bottom: 20px;
+}
+.content_resume_right {
+	padding-bottom: 20px;
+}
+.uper h4 {
+	background-color:#f16529;
+	padding: 3px;
+	display: inline-block;
+	color: #f2f2f2;
+	font-style: italic;
+	font-size: 15px;
+}
+#resume p {
+	font-size: 13px;
+}
+@media screen and (max-width: 1200px) {
+    #resume .col-lg-6 {
+    	text-align: left;
+    } 
+    .border_left, .dopinformation {
+    	border-left: #576a91 2px solid;
+    }
+}
+.border {
+	border-left: #576a91 2px solid;
+}
+.border1 {
+	box-shadow: 0 0 5px 2px rgba(0,0,100,0.5);
+	border-radius: 5px;
+	height: 285px;
+}
+#resume .dopinformation h3, p {
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+#portfolio {
+	margin-bottom: 35px;
+}
+#portfolio h2 { 
+	font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 46px;
+    color: #337ab7;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+#portfolio img {
+	box-shadow: 0 0 5px 2px rgba(0,0,100,0.5);
+}
+@media screen and (max-width: 1200px) {
+    #portfolio img {
+    	width: 70%;
+    } 
+}
+#contakt h2 {
+	font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 46px;
+    color: #337ab7;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+#contakt p {
+	font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 16px;
+    padding-top: 19px;
+    line-height: 32px;
+    color: #7e8287;
+}
+#contakt form {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#contakt {
+	border-bottom:3px solid #576a91;
+	    width: 100%;
+	    padding-bottom: 40px;
+}
+#contakt input {
+border: 0px;
+border-bottom: 2px solid #576a91;
+border-radius: 0;
+height: 50px;
+box-shadow: none;
+-webkit-box-shadow: none;
+background-color: #f2f2f2;
+}
+
+#contakt textarea {
+border-radius: 5px;
+border: 2px solid #576a91;
+box-shadow: none;
+-webkit-box-shadow: none;
+background-color: #f2f2f2;
+}
+#contakt button {
+	padding: 0 30px;
+    line-height: 47px;
+    background-color: #576a91;
+    color: #1b2429;
+    font-family: 'OpenSans-ExtraBold', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#footer {
+	background: #576a91;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footer i {
+	color: #bdbdbd;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#footer i:hover {
+	color: #337ab7;
+}
+.copy {
+	color: #bdbdbd;
+}
+
+
