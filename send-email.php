@@ -27,9 +27,9 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $body = "
 
-		${name}
-		${email}
-		${message}
+		Имя: ${name}
+		Email: ${email}
+		Сообщение: ${message}
 
 ";
 
