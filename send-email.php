@@ -5,19 +5,14 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 }
 
 $email = '';
-$phone = '';
 $name = '';
 $message = '';
 
-$to = 'kyivrepair@gmail.com';
-$redirectUrl = 'https://lestat8828.github.io/Remont/sendmail.html';
+$to = 'lestat8828@gmail.com';
+$redirectUrl = '#';
 
 if (isset($_POST['email'])) {
 	$email = $_POST['email'];
-}
-
-if (isset($_POST['phone'])) {
-	$phone = $_POST['phone'];
 }
 
 if (isset($_POST['name'])) {
@@ -32,17 +27,13 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $body = "
-<html>
-	<head></head>
-	<body>
-		<p>Имя: ${name}</p>
-		<p>Тел: ${phone}</p>
-		<p>Email: ${email}</p>
-		<p>Сообщение: ${message}</p>
-	</body>
-</html>
+
+		${name}
+		${email}
+		${message}
+
 ";
 
-mail($to, 'РЕМОНТ ' . date('Y-m-d H:m'), $body);
+mail($to, 'VLAD DEVELOPER' . date('Y-m-d H:m'), $body);
 
 header("Location: ${$redirectUrl}");

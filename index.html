@@ -7,11 +7,10 @@
   <meta name="description" content="Сайт портфолио front-end разработчика, создать сайт, landing page, одностраничный сайт визитка.">
   <meta name="keywords" content="Разрабока сайта, сайт по ключ, Web decelopment, сайт недорого,  создание сайта в Киеве.">
   <link rel="author" href="https://plus.google.com/u/0/113404119112000629057"> 
-  
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/animate.min.css">
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -26,14 +25,14 @@
           <a href="#headerwrap">Vladislav</a><span>Yurtaiev</span>
         </div>  
       </div>
-      <div class="navbar-collapse collapse">
+      <div id="menu" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right wow fadeInDown text-center">
-          <li class="menu_item"><a class="menu_link" href="#">ГЛАВНАЯ</a></li>
-          <li class="menu_item"><a class="menu_link" href="#">УСЛУГИ</a></li>
-          <li class="menu_item"><a class="menu_link" href="#">ОБО МНЕ</a></li>
-          <li class="menu_item"><a class="menu_link" href="#">РЕЗЮМЕ</a></li>
-          <li class="menu_item"><a class="menu_link" href="#">ПОРТФОЛИО</a></li>
-          <li class="menu_item"><a class="menu_link" href="#">КОНТАКТЫ</a></li>
+          <li class="menu_item"><a class="menu_link" href="#headerwrap">ГЛАВНАЯ</a></li>
+          <li class="menu_item"><a class="menu_link" href="#services">УСЛУГИ</a></li>
+          <li class="menu_item"><a class="menu_link" href="#about">ОБО МНЕ</a></li>
+          <li class="menu_item"><a class="menu_link" href="#resume">РЕЗЮМЕ</a></li>
+          <li class="menu_item"><a class="menu_link" href="#portfolio">ПОРТФОЛИО</a></li>
+          <li class="menu_item"><a class="menu_link" href="#contakt">КОНТАКТЫ</a></li>
         </ul>
       </div>
     </div>
@@ -70,32 +69,48 @@
   </div>
   <div id="about">
     <div class="container">
-      <div class="row centered about">
+      <div class="row centered about1">
         <h2>Обо мне</h2>
         <p>Предоставляю услуги по вёрстке сайтов различной сложности. Полное соответствие техническому заданию заказчика.</p>
       </div>
-      <div class="row centered wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.5s">
-        <div class="border1 col-sm-6 col-md-3 col-lg-3">
-          <img src="photo/html-5.svg" alt="#">
-          <img src="photo/css-3.svg" alt="#">
-          <img src="photo/javascript.svg" alt="#">
-          <h3>HTML5+CSS3+JS</h3>
-          <p>Семантическая, адаптивная, кроссбраузерная верстка с применением технологий CSS3, оживление страницы с помощью JavaScript!</p>
+      <div class="row centered about">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <ul>
+            <li>
+              <img src="photo/html-5.svg" alt="HTML5">
+              <img src="photo/css-3.svg" alt="CSS3">
+              <img src="photo/javascript.svg" alt="JavaScript">
+              <h3>HTML5+CSS3+JS</h3>
+              <p>Семантическая, адаптивная, кроссбраузерная верстка с применением технологий CSS3, оживление страницы с помощью JavaScript!</p>
+            </li>  
+          </ul>
         </div>
-        <div class="border1 col-sm-6 col-md-3 col-lg-3">
-          <img src="photo/alarm-clock.svg" alt="#">
-          <h3>ВСЕГДА ВОВРЕМЯ</h3>
-          <p>Выполнения поставленной задачи всегда в точно оговоренные сроки. Внесение изменений и пожеланий в кротчайшие сроки!</p>
+        <div class="col-sm-6 col-md-3 col-lg-3" style="animation-delay: 0.2s;">
+          <ul>
+            <li>
+              <img src="photo/alarm-clock.svg" alt="Вовремя">  
+              <h3>ВСЕГДА ВОВРЕМЯ</h3>
+              <p>Выполнения поставленной задачи всегда в точно оговоренные сроки. Внесение изменений и пожеланий в кротчайшие сроки!</p>
+            </li>  
+          </ul>
         </div>
-        <div class="border1 col-sm-6 col-md-3 col-lg-3">
-          <img src="photo/agreement.svg" alt="#">
-          <h3>ГИБКИЙ ПОДХОД</h3>
-          <p>Индивидуальный подход к каждому клиенту. Всегда на связи. Сотрудничество и развитие проекта в будущем!</p>
+        <div class="col-sm-6 col-md-3 col-lg-3" style="animation-delay: 0.4s;">
+          <ul>
+            <li>
+              <img src="photo/agreement.svg" alt="Договоримся">
+              <h3>ГИБКИЙ ПОДХОД</h3>
+              <p>Индивидуальный подход к каждому клиенту. Всегда на связи. Сотрудничество и развитие проекта в будущем!</p>
+            </li>  
+          </ul>
         </div>
-        <div class="border1 col-sm-6 col-md-3 col-lg-3">
-          <img src="photo/pen.svg" alt="#">
-          <h3>ПОДДЕРЖКА</h3>
-          <p>Рассмотрим различные варианты и возможности выполнения поставленной задачи для достижения максимального эффекта!</p>
+        <div class="col-sm-6 col-md-3 col-lg-3" style="animation-delay: 0.6s;">
+          <ul>
+            <li>
+              <img src="photo/pen.svg" alt="Варианты">
+              <h3>ПОДДЕРЖКА</h3>
+              <p>Рассмотрим различные варианты и возможности выполнения поставленной задачи для достижения максимального эффекта!</p>
+            </li>  
+          </ul>
         </div>
       </div>
     </div>
@@ -147,7 +162,7 @@
   <div id="portfolio">
     <div class="row centered">
       <h2>ПОРТФОЛИО</h2>
-      <a href="#" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s"><img src="photo/portfolio1.jpg" alt="сайт Ваш Ремонт"></a>
+      <a target="_blank" style="animation-duration: 2s;" href="http://kyivrepair.pro/"><img src="photo/portfolio1.jpg" alt="сайт: http://kyivrepair.pro/"></a>
     </div> 
   </div>
   <div id="contakt">
@@ -155,7 +170,7 @@
       <h2>Контакты</h2>
       <p>Заполните форму что бы заказать вёрстку или свяжитесь со мной через социальные сети</p>
     </div>
-    <div class="row centered wow fadeInUp" data-wow-duration="1s">
+    <div class="row centered">
       <form class="form-horizontal form-control-static" role="form" method="post" action="send-email.php">
         <div class="col-lg-8 col-md-8 col-sm-12">
           <div class="form-group">
@@ -185,20 +200,25 @@
   <div id="footer">
     <div class="container">
       <div class="row centered">
-        <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-        <a target="_blank" href="#"><i class="fa fa-vk"></i></a>
+        <p><a class="fa fa-phone" href="wtai://wp/mc;+380732743731"> (073) 274-37-31</a></p>
+      </div>
+      <div class="row centered">
+        <a target="_blank" href="https://www.instagram.com/vladislavyurtaev/"><i class="fa fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100011302186974"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://vk.com/id8211002"><i class="fa fa-vk"></i></a>
       </div>
       <div class="row centered copy">
         <span>2018 &copy Vladislav Yurtaiev</span>
       </div>
     </div>
   </div>
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery-1.7.2.min.js"></script>
+  <script src="js/jquery.min.js"></script>  
+  <script src="js/animate-css.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script> 
+  <script> new WOW().init(); </script>
 </body>
 </html>
