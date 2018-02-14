@@ -37,10 +37,12 @@
 .content_resume_right{padding-bottom:20px;}
 .uper h4{background-color:#f16529;padding:3px;display:inline-block;color:#f2f2f2;font-style:italic;font-size:15px;}
 #resume p{font-size:13px;}
+
 @media screen and (max-width:1200px){#resume .col-lg-6{text-align:left;}
+.logo {font-size: 23px;}
 .border_left, .dopinformation{border-left:#576a91 2px solid;}
 #services .photo{visibility:hidden;}
-#services .row{height:380px;}
+#services .row{height:470px;}
 .nav > li > a{padding:15px 4px;}
 .navbar{font-size:12px;}
 }
@@ -52,7 +54,7 @@
 @media screen and (max-width:1200px){#portfolio img{width:70%;}
 }
 #contakt h2{font-family:'OpenSans-ExtraBold', sans-serif;font-size:46px;color:#337ab7;margin-bottom:23px;font-weight:bold;}
-#contakt p{font-family:'OpenSans-Regular', sans-serif;font-size:16px;padding-top:19px;line-height:32px;color:#7e8287;}
+#contakt p{padding-left: 15px;padding-right: 15px;font-family:'OpenSans-Regular', sans-serif;font-size:16px;padding-top:19px;line-height:32px;color:#7e8287;}
 #contakt form{padding-top:25px;padding-bottom:25px;}
 #contakt{border-bottom:3px solid #576a91;width:100%;padding-bottom:40px;padding-top:45px;}
 #contakt input{border:0px;border-bottom:2px solid #576a91;border-radius:0;height:50px;box-shadow:none;-webkit-box-shadow:none;background-color:#f2f2f2;}
