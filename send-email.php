@@ -35,5 +35,5 @@ $body = "
 
 mail($to, 'VLAD DEVELOPER' . date('Y-m-d H:m'), $body);
 
-header("Location: #", true, 301);
+header("Location: https://sayt-portfolio-veb-razrabotchika.000webhostapp.com/", true, 301);
 exit();
