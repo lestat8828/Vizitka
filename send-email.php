@@ -9,7 +9,6 @@ $name = '';
 $message = '';
 
 $to = 'lestat8828@gmail.com';
-$redirectUrl = '#';
 
 if (isset($_POST['email'])) {
 	$email = $_POST['email'];
@@ -36,4 +35,5 @@ $body = "
 
 mail($to, 'VLAD DEVELOPER' . date('Y-m-d H:m'), $body);
 
-header("Location: ${$redirectUrl}");
+header("Location: #", true, 301);
+exit();
