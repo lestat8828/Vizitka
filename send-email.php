@@ -27,13 +27,13 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $body = "
 
-		${name}
-		${email}
-		${message}
+		Имя: ${name}
+		Email: ${email}
+		Сообщение: ${message}
 
 ";
 
 mail($to, 'VLAD DEVELOPER' . date('Y-m-d H:m'), $body);
 
-header("Location: #", true, 301);
+header("Location: https://sayt-portfolio-veb-razrabotchika.000webhostapp.com/", true, 301);
 exit();
