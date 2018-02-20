@@ -29,6 +29,7 @@
 #about h3{font-family:'OpenSans-ExtraBold', sans-serif;;font-size:16px;text-transform:uppercase;margin-top:20px;font-weight:bold;color:#7e8287;}
 #about p{font-family:'OpenSans-Regular', sans-serif;font-size:15px;line-height:20px;padding:10px 10px;color:#7e8287;}
 #about .about1 p{font-family:'OpenSans-Regular', sans-serif;font-size:21px;padding-top:19px;line-height:32px;color:#7e8287;padding-bottom:25px;}
+#resume .border{border-left:#576a91 2px solid;}
 #resume{padding-top:45px;}
 #resume h2{font-family:'OpenSans-ExtraBold', sans-serif;font-size:46px;color:#337ab7;margin-bottom:23px;font-weight:bold;}
 #resume h3{font-family:'OpenSans-Regular', sans-serif;font-size:20px;line-height:20px;padding:10px 10px;color:#1b2429;font-weight:bold;margin-top:-10px;}
