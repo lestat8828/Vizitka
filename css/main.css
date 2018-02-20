@@ -37,6 +37,13 @@
 .content_resume_right{padding-bottom:20px;}
 .uper h4{background-color:#f16529;padding:3px;display:inline-block;color:#f2f2f2;font-style:italic;font-size:15px;}
 #resume p{font-size:13px;}
+#footer{background:#576a91;padding-top:15px;padding-bottom:20px;}
+#footer a{color:#d3c2b5;font-size:25px;font-weight:bold;text-decoration:none;}
+#footer .fa{color:#d3c2b5;}
+#footer a:hover{color:#337ab7;text-decoration:none;}
+#footer i{color:#d3c2b5;font-size:25px;padding:20px;}
+#footer i:hover{color:#337ab7;}
+.copy{color:#d3c2b5;}
 
 @media screen and (max-width:1200px){#resume .col-lg-6{text-align:left;}
 .logo {font-size: 23px;}
@@ -55,14 +62,7 @@
 #contakt h2{font-family:'OpenSans-ExtraBold', sans-serif;font-size:46px;color:#337ab7;margin-bottom:23px;font-weight:bold;}
 #contakt p{padding-left: 15px;padding-right: 15px;font-family:'OpenSans-Regular', sans-serif;font-size:16px;padding-top:19px;line-height:32px;color:#7e8287;}
 #contakt form{padding-top:25px;padding-bottom:25px;}
-#contakt{border-bottom:3px solid #576a91;width:100%;padding-bottom:40px;padding-top:45px;}
+#contakt{border-bottom:3px solid #576a91;width:100%;padding-top:45px;}
 #contakt input{border:0px;border-bottom:2px solid #576a91;border-radius:0;height:50px;box-shadow:none;-webkit-box-shadow:none;background-color:#f2f2f2;}
 #contakt textarea{border-radius:5px;border:2px solid #576a91;box-shadow:none;-webkit-box-shadow:none;background-color:#f2f2f2;}
 #contakt button{padding:0 30px;line-height:47px;background-color:#576a91;color:#1b2429;font-family:'OpenSans-ExtraBold', sans-serif;font-size:16px;letter-spacing:3px;text-transform:uppercase;border:none;font-weight:bold;border-radius:3px;margin-top: 20px;}
-#footer{background:#576a91;padding-top:15px;padding-bottom:20px;}
-#footer a{color:#d3c2b5;font-size:25px;font-weight:bold;text-decoration:none;}
-#footer .fa{color:#d3c2b5;}
-#footer a:hover{color:#337ab7;text-decoration:none;}
-#footer i{color:#d3c2b5;font-size:25px;padding:20px;}
-#footer i:hover{color:#337ab7;}
-.copy{color:#d3c2b5;}
