@@ -45,8 +45,7 @@
 #services .row{height:490px;}
 .nav > li > a{padding:15px 4px;}
 .navbar{font-size:12px;}
-#portfolio img{width:70%;}
-}
+#portfolio img{width:70%; margin-top:15px;}
 .border{border-left:#576a91 2px solid;}
 #resume .dopinformation h3, p{font-size:13px;font-weight:normal;padding:0px;margin-bottom:0px;}
 #portfolio{padding-top:45px;}
